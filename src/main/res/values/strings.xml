@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Training</string>
+
+    //LogIn
+    <string name="logIn_header">Inter your Account</string>
+
+    //ForgetPassword
+    <string name="forget_password_header">Inter Your Email</string>
+
+    //SignUp
+    <string name="sign_up_header">Enter Your Info</string>
+
+    //ConfirmCode
+    <string name="confirm_code_header">Enter Confirm Code</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.root.myapplication.LogInActivity">
+
+    <TextView
+        style="@style/HeaderTextView"
+        android:text="@string/logIn_header" />
+
+    <EditText
+        android:id="@+id/logInUsernameEditText"
+        style="@style/OneLineEditText"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/logInPasswordEditText"
+        style="@style/OneLineEditText"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/logInSubmitButton"
+        style="@style/NormalButton"
+        android:text="Enter" />
+
+    <Button
+        android:id="@+id/logInGoToSignUpButton"
+        style="@style/NormalButton"
+        android:text="Sign Up" />
+
+    <Button
+        android:id="@+id/logInForgetPasswordButton"
+        style="@style/NormalButton"
+        android:text="Forget Password" />
+
+</LinearLayout>
