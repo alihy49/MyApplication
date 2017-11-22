@@ -28,6 +28,7 @@ public class MainMenuActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        //code
     }
     private boolean doubleBackToExitPressedOnce = false;
     private static final int TIME_INTERVAL = 2000;
